@@ -39,6 +39,10 @@
     border: 0;
 }
 
+.inAppBrowserNotch {
+    margin-top: 3rem;
+}
+
 .inappbrowser-app-bar {
     height: 70px;
     background-color: #404040;

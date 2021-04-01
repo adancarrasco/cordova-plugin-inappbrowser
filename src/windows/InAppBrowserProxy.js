@@ -166,6 +166,10 @@ var IAB = {
                         browserWrap.classList.add('inAppBrowserWrapFullscreen');
                     }
 
+                    if (features.indexOf('hasnotch=yes') > -1) {
+                        browserWrap.classList.add('inAppBrowserNotch');
+                    }
+
                     // Save body overflow style to be able to reset it back later
                     bodyOverflowStyle = document.body.style.msOverflowStyle;
 
